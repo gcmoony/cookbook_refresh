@@ -1,0 +1,17 @@
+{
+  "name": "cookbook-api",
+  "version": "1.0.0",
+  "description": "Access to CookBook services",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --env-file=.env app.js",
+    "dev": "node --watch --env-file=.env app.js"
+  },
+  "author": "gcmoony",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.1.5"
+  }
+}
