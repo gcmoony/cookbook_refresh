@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node --env-file=.env app.js",
-    "dev": "node --watch --env-file=.env app.js"
+    "dev": "node --watch --env-file=.env app.js",
+    "debug": "node --watch --env-file=.env --inspect app.js"
   },
   "author": "gcmoony",
   "license": "ISC",
